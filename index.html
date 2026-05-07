@@ -1,1 +1,242 @@
+export default function CinematicPortfolio() { const projects = [ { title: 'Football Cinematic Edit', subtitle: 'Fast-paced emotional sports storytelling', image: 'https://images.unsplash.com/photo-1517466787929-bc90951d0974?q=80&w=1974&auto=format&fit=crop', }, { title: 'Gaming Montage', subtitle: 'High energy transitions & sync edits', image: 'https://images.unsplash.com/photo-1542751371-adc38448a05e?q=80&w=2070&auto=format&fit=crop', }, { title: 'Cinematic Reels', subtitle: 'Dark aesthetic short-form content', image: 'https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=2070&auto=format&fit=crop', }, ]; return ( <div className="min-h-screen bg-black text-white overflow-hidden font-sans"> {/* Hero Section */} <section className="relative min-h-screen flex items-center justify-center px-6 overflow-hidden"> <div className="absolute inset-0"> <img
+src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=2070&auto=format&fit=crop"
+alt="cinematic background"
+className="w-full h-full object-cover opacity-30 scale-110"
+/>
 
+<div className="absolute inset-0 bg-black/70"></div>
+      <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,rgba(255,255,255,0.15),transparent_55%)]"></div>
+    </div>
+
+    <div className="relative z-10 max-w-7xl mx-auto grid lg:grid-cols-2 gap-16 items-center py-24">
+      <div>
+        <p className="uppercase tracking-[10px] text-gray-400 mb-5 text-sm">
+          AST • Cinematic Creator
+        </p>
+
+        <h1 className="text-6xl md:text-8xl font-black leading-[0.9] mb-8">
+          UDAY
+          <span className="block text-white/70">PRATAP</span>
+        </h1>
+
+        <div className="mb-8 inline-block rounded-full border border-white/20 px-5 py-2 text-sm backdrop-blur-md bg-white/5">
+          Founder of <span className="font-bold text-white">अस्त ( AST )</span>
+        </div>
+
+        <p className="text-lg text-gray-300 leading-relaxed max-w-2xl">
+          College student, cinematic editor, and digital creator focused on
+          building powerful visuals, emotional storytelling, gaming edits,
+          and viral content for the next generation of social media.
+        </p>
+
+        <div className="flex flex-wrap gap-5 mt-10">
+          <a
+            href="https://facebook.com/astofficial0"
+            target="_blank"
+            className="px-8 py-4 rounded-2xl bg-white text-black font-bold hover:scale-105 transition duration-300 shadow-2xl"
+          >
+            Facebook
+          </a>
+
+          <a
+            href="https://youtube.com/@meastofficial-t2w?si=EpOuOTu-0r0K633a"
+            target="_blank"
+            className="px-8 py-4 rounded-2xl border border-white/20 backdrop-blur-xl bg-white/5 hover:bg-white/10 transition duration-300"
+          >
+            YouTube
+          </a>
+        </div>
+      </div>
+
+      <div className="relative flex justify-center">
+        <div className="absolute inset-0 blur-3xl bg-white/10 rounded-full scale-75"></div>
+
+        <div className="relative group perspective-[2000px]">
+          <div className="absolute -inset-5 rounded-[40px] bg-gradient-to-br from-white/20 via-transparent to-white/5 blur-2xl"></div>
+
+          <div className="relative rotate-[-6deg] group-hover:rotate-0 transition duration-700 transform-gpu">
+            <img
+              src="/mnt/data/file_00000000180472098523ec9c789d9db5"
+              alt="Uday Pratap"
+              className="w-[340px] md:w-[420px] rounded-[40px] border border-white/20 shadow-[0_20px_80px_rgba(255,255,255,0.15)] object-cover"
+            />
+
+            <div className="absolute -bottom-8 -right-6 backdrop-blur-xl bg-white/10 border border-white/20 rounded-3xl px-6 py-5 shadow-2xl">
+              <p className="text-2xl font-black">AST</p>
+              <p className="text-gray-300 text-sm">Cinematic Portfolio</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  {/* About */}
+  <section className="py-24 px-6 md:px-16 bg-zinc-950">
+    <div className="grid md:grid-cols-2 gap-14 items-center max-w-7xl mx-auto">
+      <div>
+        <p className="text-gray-400 uppercase tracking-[6px] mb-4 text-sm">
+          About Me
+        </p>
+
+        <h2 className="text-5xl font-bold mb-6 leading-tight">
+          I create edits that feel like movies.
+        </h2>
+
+        <p className="text-gray-400 text-lg leading-relaxed mb-6">
+          Specialized in sports edits, gaming montages, short-form content,
+          and cinematic storytelling for YouTube, Instagram, Facebook, and
+          TikTok.
+        </p>
+
+        <div className="grid grid-cols-2 gap-5 mt-10">
+          <div className="bg-black/40 border border-white/10 rounded-3xl p-6">
+            <h3 className="text-3xl font-bold">150M+</h3>
+            <p className="text-gray-400 mt-2">Views Generated</p>
+          </div>
+
+          <div className="bg-black/40 border border-white/10 rounded-3xl p-6">
+            <h3 className="text-3xl font-bold">500+</h3>
+            <p className="text-gray-400 mt-2">Projects Edited</p>
+          </div>
+        </div>
+      </div>
+
+      <div className="relative">
+        <img
+          src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=2072&auto=format&fit=crop"
+          alt="editing setup"
+          className="rounded-[32px] shadow-2xl border border-white/10"
+        />
+
+        <div className="absolute -bottom-6 -left-6 bg-white text-black rounded-3xl px-6 py-4 shadow-2xl">
+          <p className="font-bold text-xl">4K Editing</p>
+          <p className="text-sm">Premium Quality Visuals</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  {/* Projects */}
+  <section className="py-24 px-6 md:px-16 bg-black">
+    <div className="max-w-7xl mx-auto">
+      <div className="mb-14">
+        <p className="text-gray-400 uppercase tracking-[6px] text-sm mb-4">
+          Featured Work
+        </p>
+
+        <h2 className="text-5xl font-bold">
+          Cinematic Projects & Viral Edits
+        </h2>
+      </div>
+
+      <div className="grid md:grid-cols-3 gap-8">
+        {[
+          {
+            title: 'Football Edit',
+            image:
+              'https://images.unsplash.com/photo-1517466787929-bc90951d0974?q=80&w=1974&auto=format&fit=crop',
+          },
+          {
+            title: 'Gaming Montage',
+            image:
+              'https://images.unsplash.com/photo-1542751371-adc38448a05e?q=80&w=2070&auto=format&fit=crop',
+          },
+          {
+            title: 'Cinematic Reel',
+            image:
+              'https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=2070&auto=format&fit=crop',
+          },
+        ].map((project, index) => (
+          <div
+            key={index}
+            className="group relative overflow-hidden rounded-[32px] border border-white/10 bg-zinc-900"
+          >
+            <img
+              src={project.image}
+              alt={project.title}
+              className="h-[500px] w-full object-cover group-hover:scale-110 transition duration-700"
+            />
+
+            <div className="absolute inset-0 bg-gradient-to-t from-black via-black/20 to-transparent"></div>
+
+            <div className="absolute bottom-0 p-8">
+              <h3 className="text-3xl font-bold mb-3">{project.title}</h3>
+
+              <button className="px-5 py-3 rounded-xl bg-white text-black font-semibold hover:scale-105 transition">
+                Watch Project
+              </button>
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  {/* Services */}
+  <section className="py-24 px-6 md:px-16 bg-zinc-950">
+    <div className="max-w-7xl mx-auto">
+      <div className="mb-14 text-center">
+        <p className="text-gray-400 uppercase tracking-[6px] text-sm mb-4">
+          Services
+        </p>
+
+        <h2 className="text-5xl font-bold">What I Can Do</h2>
+      </div>
+
+      <div className="grid md:grid-cols-3 gap-8">
+        {[
+          'Short Form Reels',
+          'Gaming Edits',
+          'YouTube Videos',
+          'Motion Graphics',
+          'Thumbnail Design',
+          'Cinematic Color Grading',
+        ].map((service, index) => (
+          <div
+            key={index}
+            className="p-8 rounded-[28px] border border-white/10 bg-black hover:bg-white hover:text-black transition duration-500"
+          >
+            <div className="text-5xl font-black mb-5">
+              0{index + 1}
+            </div>
+
+            <h3 className="text-2xl font-bold">{service}</h3>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  {/* Contact */}
+  <section className="py-28 px-6 text-center bg-black relative overflow-hidden">
+    <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(255,255,255,0.15),transparent_60%)]"></div>
+
+    <div className="relative z-10 max-w-3xl mx-auto">
+      <p className="text-gray-400 uppercase tracking-[6px] text-sm mb-4">
+        Contact
+      </p>
+
+      <h2 className="text-5xl md:text-6xl font-black mb-6 leading-tight">
+        Let’s Create Something Viral.
+      </h2>
+
+      <p className="text-gray-400 text-lg mb-10">
+        Available for freelance editing, collaborations, gaming montages,
+        and cinematic content creation.
+      </p>
+
+      <div className="flex flex-wrap justify-center gap-5">
+        <button className="px-8 py-4 bg-white text-black rounded-2xl font-bold hover:scale-105 transition">
+          Instagram
+        </button>
+
+        <button className="px-8 py-4 border border-white/20 rounded-2xl font-bold hover:bg-white/10 transition">
+          YouTube
+        </button>
+      </div>
+    </div>
+  </section>
+</div>
+
+); }
